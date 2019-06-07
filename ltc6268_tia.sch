@@ -1,0 +1,652 @@
+EESchema Schematic File Version 4
+LIBS:ltc6268_tia-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ltc6268_tia-rescue:C_Small C2
+U 1 1 5CE501C6
+P 5200 2250
+F 0 "C2" H 5210 2320 50  0000 L CNN
+F 1 "100n" H 5250 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 2250 50  0001 C CNN
+F 3 "" H 5200 2250 50  0001 C CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C3
+U 1 1 5CE50239
+P 5550 2250
+F 0 "C3" H 5560 2320 50  0000 L CNN
+F 1 "1u" H 5650 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2250 50  0001 C CNN
+F 3 "" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C4
+U 1 1 5CE5029E
+P 5900 2250
+F 0 "C4" H 5910 2320 50  0000 L CNN
+F 1 "10u" H 6000 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 2250 50  0001 C CNN
+F 3 "" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:VCC #PWR01
+U 1 1 5CECB41D
+P 4650 2050
+F 0 "#PWR01" H 4650 1900 50  0001 C CNN
+F 1 "VCC" H 4650 2200 50  0000 C CNN
+F 2 "" H 4650 2050 50  0001 C CNN
+F 3 "" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR02
+U 1 1 5CECB44B
+P 5550 2350
+F 0 "#PWR02" H 5550 2100 50  0001 C CNN
+F 1 "GND" H 5550 2200 50  0000 C CNN
+F 2 "" H 5550 2350 50  0001 C CNN
+F 3 "" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR03
+U 1 1 5CECB514
+P 4650 3300
+F 0 "#PWR03" H 4650 3050 50  0001 C CNN
+F 1 "GND" H 4650 3150 50  0000 C CNN
+F 2 "" H 4650 3300 50  0001 C CNN
+F 3 "" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:REF20xx U1
+U 1 1 5CECB6CB
+P 2650 1700
+F 0 "U1" H 2400 2050 60  0000 C CNN
+F 1 "REF2041" H 2950 2050 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2650 1700 60  0001 C CNN
+F 3 "" H 2650 1700 60  0001 C CNN
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR04
+U 1 1 5CECB851
+P 2650 2100
+F 0 "#PWR04" H 2650 1850 50  0001 C CNN
+F 1 "GND" H 2650 1950 50  0000 C CNN
+F 2 "" H 2650 2100 50  0001 C CNN
+F 3 "" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:VCC #PWR05
+U 1 1 5CECB86B
+P 2650 1100
+F 0 "#PWR05" H 2650 950 50  0001 C CNN
+F 1 "VCC" H 2650 1250 50  0000 C CNN
+F 2 "" H 2650 1100 50  0001 C CNN
+F 3 "" H 2650 1100 50  0001 C CNN
+	1    2650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:Jumper_NC_Small JP2
+U 1 1 5CECB882
+P 3450 2650
+F 0 "JP2" H 3450 2730 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3460 2590 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 2650 50  0001 C CNN
+F 3 "" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:R_Small R5
+U 1 1 5CECB92F
+P 4750 3650
+F 0 "R5" H 4780 3670 50  0000 L CNN
+F 1 "499k" H 4780 3610 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4750 3650 50  0001 C CNN
+F 3 "" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:SFH216 D1
+U 1 1 5CECB9C5
+P 4150 3100
+F 0 "D1" H 4170 3170 50  0000 L CNN
+F 1 "SFH216" H 4110 2990 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 4150 3275 50  0001 C CNN
+F 3 "" H 4100 3100 50  0001 C CNN
+	1    4150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:Jumper_NC_Small JP1
+U 1 1 5CECBB1A
+P 3550 2650
+F 0 "JP1" H 3550 2730 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3560 2590 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3550 2650 50  0001 C CNN
+F 3 "" H 3550 2650 50  0001 C CNN
+	1    3550 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C1
+U 1 1 5CECBB6A
+P 1900 1700
+F 0 "C1" H 1910 1770 50  0000 L CNN
+F 1 "100n" H 1950 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 1700 50  0001 C CNN
+F 3 "" H 1900 1700 50  0001 C CNN
+	1    1900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR06
+U 1 1 5CECBC60
+P 1900 1800
+F 0 "#PWR06" H 1900 1550 50  0001 C CNN
+F 1 "GND" H 1900 1650 50  0000 C CNN
+F 2 "" H 1900 1800 50  0001 C CNN
+F 3 "" H 1900 1800 50  0001 C CNN
+	1    1900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:VCC #PWR07
+U 1 1 5CECBC89
+P 1900 1600
+F 0 "#PWR07" H 1900 1450 50  0001 C CNN
+F 1 "VCC" H 1900 1750 50  0000 C CNN
+F 2 "" H 1900 1600 50  0001 C CNN
+F 3 "" H 1900 1600 50  0001 C CNN
+	1    1900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:Conn_Coaxial J2
+U 1 1 5CECBE77
+P 6750 3000
+F 0 "J2" H 6760 3120 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6865 3000 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6750 3000 50  0001 C CNN
+F 3 "" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:R_Small R2
+U 1 1 5CECBF29
+P 5350 3000
+F 0 "R2" H 5380 3020 50  0000 L CNN
+F 1 "0R" H 5380 2960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 3000 50  0001 C CNN
+F 3 "" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C5
+U 1 1 5CECBFF4
+P 5800 3200
+F 0 "C5" H 5810 3270 50  0000 L CNN
+F 1 "DNP" H 5850 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 3200 50  0001 C CNN
+F 3 "" H 5800 3200 50  0001 C CNN
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR08
+U 1 1 5CECC10C
+P 5800 3700
+F 0 "#PWR08" H 5800 3450 50  0001 C CNN
+F 1 "GND" H 5800 3550 50  0000 C CNN
+F 2 "" H 5800 3700 50  0001 C CNN
+F 3 "" H 5800 3700 50  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR09
+U 1 1 5CECC13E
+P 6750 3200
+F 0 "#PWR09" H 6750 2950 50  0001 C CNN
+F 1 "GND" H 6750 3050 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:LTC6268 U2
+U 1 1 5CECC26B
+P 4750 3000
+F 0 "U2" H 4850 2850 50  0000 L CNN
+F 1 "LTC6268IS6" H 4850 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4650 2800 50  0001 L CNN
+F 3 "" H 4750 3200 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:TEST TP1
+U 1 1 5CECC405
+P 4800 2700
+F 0 "TP1" H 4800 3000 50  0000 C BNN
+F 1 "TEST" H 4800 2950 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C6
+U 1 1 5CECCF8B
+P 3750 4650
+F 0 "C6" H 3760 4720 50  0000 L CNN
+F 1 "100n" H 3800 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 4650 50  0001 C CNN
+F 3 "" H 3750 4650 50  0001 C CNN
+	1    3750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C7
+U 1 1 5CECCF91
+P 4100 4650
+F 0 "C7" H 4110 4720 50  0000 L CNN
+F 1 "1u" H 4200 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:C_Small C8
+U 1 1 5CECCF97
+P 4450 4650
+F 0 "C8" H 4460 4720 50  0000 L CNN
+F 1 "10u" H 4550 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 4650 50  0001 C CNN
+F 3 "" H 4450 4650 50  0001 C CNN
+	1    4450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:VCC #PWR010
+U 1 1 5CECCF9D
+P 4650 4450
+F 0 "#PWR010" H 4650 4300 50  0001 C CNN
+F 1 "VCC" H 4650 4600 50  0000 C CNN
+F 2 "" H 4650 4450 50  0001 C CNN
+F 3 "" H 4650 4450 50  0001 C CNN
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR011
+U 1 1 5CECCFA3
+P 4100 4750
+F 0 "#PWR011" H 4100 4500 50  0001 C CNN
+F 1 "GND" H 4100 4600 50  0000 C CNN
+F 2 "" H 4100 4750 50  0001 C CNN
+F 3 "" H 4100 4750 50  0001 C CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:GND #PWR012
+U 1 1 5CECCFA9
+P 4650 5700
+F 0 "#PWR012" H 4650 5450 50  0001 C CNN
+F 1 "GND" H 4650 5550 50  0000 C CNN
+F 2 "" H 4650 5700 50  0001 C CNN
+F 3 "" H 4650 5700 50  0001 C CNN
+	1    4650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:R_Small R10
+U 1 1 5CECCFAF
+P 4750 6050
+F 0 "R10" H 4780 6070 50  0000 L CNN
+F 1 "499k" H 4780 6010 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4750 6050 50  0001 C CNN
+F 3 "" H 4750 6050 50  0001 C CNN
+	1    4750 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:SFH216 D2
+U 1 1 5CECCFB5
+P 4150 5500
+F 0 "D2" H 4170 5570 50  0000 L CNN
+F 1 "SFH216" H 4110 5390 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 4150 5675 50  0001 C CNN
+F 3 "" H 4100 5500 50  0001 C CNN
+	1    4150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ltc6268_tia-rescue:TEST TP2
+U 1 1 5CECCFFD
+P 4800 5100
+F 0 "TP2" H 4800 5400 50  0000 C BNN
+F 1 "TEST" H 4800 5350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2050 4650 2150
+Wire Wire Line
+	4650 2150 5200 2150
+Connection ~ 4650 2150
+Connection ~ 5200 2150
+Connection ~ 5550 2150
+Wire Wire Line
+	5200 2350 5550 2350
+Connection ~ 5550 2350
+Wire Wire Line
+	4850 3650 5150 3650
+Wire Wire Line
+	5150 3650 5150 3000
+Wire Wire Line
+	5050 3000 5150 3000
+Wire Wire Line
+	4650 3650 4350 3650
+Wire Wire Line
+	4350 3650 4350 3100
+Wire Wire Line
+	4250 3100 4350 3100
+Connection ~ 4350 3100
+Wire Wire Line
+	2650 1100 2650 1200
+Wire Wire Line
+	2650 1200 2150 1200
+Wire Wire Line
+	2150 1200 2150 1600
+Wire Wire Line
+	2150 1600 2250 1600
+Connection ~ 2650 1200
+Connection ~ 5150 3000
+Connection ~ 4100 4550
+Wire Wire Line
+	3750 4750 4100 4750
+Connection ~ 4100 4750
+Wire Wire Line
+	4850 6050 5150 6050
+Wire Wire Line
+	5150 6050 5150 5400
+Wire Wire Line
+	5050 5400 5150 5400
+Wire Wire Line
+	4650 6050 4350 6050
+Wire Wire Line
+	4350 6050 4350 5500
+Wire Wire Line
+	4250 5500 4350 5500
+Connection ~ 4350 5500
+Connection ~ 5150 5400
+Wire Wire Line
+	3550 1600 3050 1600
+Wire Wire Line
+	3050 1800 3450 1800
+$Comp
+L ltc6268_tia-rescue:Conn_01x02 J1
+U 1 1 5CECDEE7
+P 6600 2150
+F 0 "J1" H 6600 2250 50  0000 C CNN
+F 1 "Conn_01x02" H 6600 1950 50  0000 C CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 6600 2150 50  0001 C CNN
+F 3 "" H 6600 2150 50  0001 C CNN
+	1    6600 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 2150
+Wire Wire Line
+	6250 2350 6250 2250
+Wire Wire Line
+	6250 2250 6400 2250
+Connection ~ 5900 2350
+$Comp
+L ltc6268_tia-rescue:R_Small R3
+U 1 1 5CECEFB8
+P 6250 3000
+F 0 "R3" H 6280 3020 50  0000 L CNN
+F 1 "0R" H 6280 2960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 3000 50  0001 C CNN
+F 3 "" H 6250 3000 50  0001 C CNN
+	1    6250 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:L_Small L1
+U 1 1 5CECF85E
+P 5650 3000
+F 0 "L1" H 5680 3040 50  0000 L CNN
+F 1 "DNP" H 5680 2960 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 3000 50  0001 C CNN
+F 3 "" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:L_Small L2
+U 1 1 5CECF921
+P 5950 3000
+F 0 "L2" H 5980 3040 50  0000 L CNN
+F 1 "DNP" H 5980 2960 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 3000 50  0001 C CNN
+F 3 "" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ltc6268_tia-rescue:R_Small R4
+U 1 1 5CECFAA4
+P 5800 3500
+F 0 "R4" H 5830 3520 50  0000 L CNN
+F 1 "DNP" H 5830 3460 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3500 50  0001 C CNN
+	1    5800 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3000 5500 3000
+Wire Wire Line
+	5750 3000 5800 3000
+Wire Wire Line
+	5800 3000 5800 3100
+Connection ~ 5800 3000
+Wire Wire Line
+	6050 3000 6100 3000
+Wire Wire Line
+	6600 3000 6350 3000
+Wire Wire Line
+	5800 3300 5800 3400
+Wire Wire Line
+	5800 3600 5800 3700
+$Comp
+L ltc6268_tia-rescue:R_Small R1
+U 1 1 5CECFEF6
+P 5800 2800
+F 0 "R1" H 5830 2820 50  0000 L CNN
+F 1 "0R" H 5830 2760 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 2800 50  0001 C CNN
+F 3 "" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2800 5500 2800
+Wire Wire Line
+	5500 2800 5500 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	5900 2800 6100 2800
+Wire Wire Line
+	6100 2800 6100 3000
+Connection ~ 6100 3000
+$Comp
+L ltc6268_tia-rescue:LTC6268IS8 U3
+U 1 1 5CED0D07
+P 4750 5400
+F 0 "U3" H 4700 5650 50  0000 L CNN
+F 1 "LTC6268IS8" H 4700 5550 50  0000 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4650 5200 50  0001 L CNN
+F 3 "" H 4750 5600 50  0001 C CNN
+	1    4750 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2150 4650 2700
+Wire Wire Line
+	5200 2150 5550 2150
+Wire Wire Line
+	5550 2150 5900 2150
+Wire Wire Line
+	5550 2350 5900 2350
+Wire Wire Line
+	4350 3100 4450 3100
+Wire Wire Line
+	2650 1200 2650 1300
+Wire Wire Line
+	5150 3000 5250 3000
+Wire Wire Line
+	3750 4550 4100 4550
+Wire Wire Line
+	4100 4550 4450 4550
+Wire Wire Line
+	4100 4750 4450 4750
+Wire Wire Line
+	4350 5500 4450 5500
+Wire Wire Line
+	3550 2900 3550 5300
+Wire Wire Line
+	3450 3100 3450 5500
+Wire Wire Line
+	5900 2150 6400 2150
+Wire Wire Line
+	5900 2350 6250 2350
+Wire Wire Line
+	5800 3000 5850 3000
+Wire Wire Line
+	5500 3000 5550 3000
+Wire Wire Line
+	6100 3000 6150 3000
+Wire Wire Line
+	4650 4450 4650 4550
+Wire Wire Line
+	4500 4650 4450 4650
+Wire Wire Line
+	4450 4650 4450 4550
+Connection ~ 4450 4550
+Wire Wire Line
+	4650 4550 4450 4550
+Connection ~ 4650 4550
+Wire Wire Line
+	4650 4550 4650 5100
+Wire Wire Line
+	5150 3650 5150 5400
+Connection ~ 5150 3650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CFC968B
+P 5050 950
+F 0 "H1" H 5150 996 50  0000 L CNN
+F 1 "MountingHole" H 5150 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5050 950 50  0001 C CNN
+F 3 "~" H 5050 950 50  0001 C CNN
+	1    5050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CFCA3EC
+P 5050 1150
+F 0 "H2" H 5150 1196 50  0000 L CNN
+F 1 "MountingHole" H 5150 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5050 1150 50  0001 C CNN
+F 3 "~" H 5050 1150 50  0001 C CNN
+	1    5050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CFCA577
+P 5050 1350
+F 0 "H3" H 5150 1396 50  0000 L CNN
+F 1 "MountingHole" H 5150 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5050 1350 50  0001 C CNN
+F 3 "~" H 5050 1350 50  0001 C CNN
+	1    5050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CFCE949
+P 5050 1550
+F 0 "H4" H 5150 1596 50  0000 L CNN
+F 1 "MountingHole" H 5150 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5050 1550 50  0001 C CNN
+F 3 "~" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2900 4450 2900
+Wire Wire Line
+	3450 3100 3950 3100
+Wire Wire Line
+	3550 5300 4350 5300
+Wire Wire Line
+	3450 5500 3950 5500
+Wire Wire Line
+	3550 2900 3550 2750
+Connection ~ 3550 2900
+Wire Wire Line
+	3450 2750 3450 3100
+Connection ~ 3450 3100
+Wire Wire Line
+	3450 2550 3450 1800
+Wire Wire Line
+	3550 1600 3550 2550
+Wire Wire Line
+	4350 5300 4350 5200
+Wire Wire Line
+	4350 5200 4450 5200
+Connection ~ 4350 5300
+Wire Wire Line
+	4350 5300 4450 5300
+$EndSCHEMATC
